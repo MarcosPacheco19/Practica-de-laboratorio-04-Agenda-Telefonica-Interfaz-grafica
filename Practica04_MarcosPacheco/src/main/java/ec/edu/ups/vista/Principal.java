@@ -4,6 +4,9 @@
  * and open the template in the editor.
  */
 package ec.edu.ups.vista;
+import ec.edu.ups.interfazGrafica.VentanaIniciarSesion;
+import ec.edu.ups.interfazGrafica.VentanaP;
+import ec.edu.ups.interfazGrafica.VentanaRegistro;
 
 /**
  *
@@ -11,4 +14,11 @@ package ec.edu.ups.vista;
  */
 public class Principal {
     
+    public static void main(String[] args) {
+        
+        VentanaP ventanaPrincipal = new VentanaP();
+        VentanaRegistro ventaRegistro = new VentanaRegistro();
+        VentanaIniciarSesion ventanIniciarSecion = new VentanaIniciarSesion();
+        
+    }
 }
