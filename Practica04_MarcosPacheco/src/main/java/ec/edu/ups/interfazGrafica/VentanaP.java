@@ -16,7 +16,7 @@ import java.awt.Panel;
  */
 public class VentanaP extends Frame{
     
-        //Paneles
+    //Paneles
     private Panel panelPrincipal;
     private Panel panelVacio;
     private Panel panelBotones;
@@ -24,8 +24,7 @@ public class VentanaP extends Frame{
     //Botones
     private Button bRegistrarse;
     private Button bIniciarSesion;
-    private Button bUsuariosRegistrados;
-    private Button bTelefonosRegistrados;
+    private Button bDirectorioGeneral;
     private Button bSalir;
 
     public VentanaP() {
@@ -41,14 +40,12 @@ public class VentanaP extends Frame{
 
         bRegistrarse = new Button("Registrarse");
         bIniciarSesion = new Button("Iniciar secion");
-        bUsuariosRegistrados = new Button("Usuarios Registrados");
-        bTelefonosRegistrados = new Button("Telefonos Registrados");
+        bDirectorioGeneral = new Button("Directorio General");
         bSalir = new Button("Salir");
 
         panelBotones.add(bRegistrarse);
         panelBotones.add(bIniciarSesion);
-        panelBotones.add(bUsuariosRegistrados);
-        panelBotones.add(bTelefonosRegistrados);
+        panelBotones.add(bDirectorioGeneral);
         panelBotones.add(bSalir);
 
         panelPrincipal.add(panelVacio);

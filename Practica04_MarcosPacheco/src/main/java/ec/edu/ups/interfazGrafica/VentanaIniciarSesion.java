@@ -35,7 +35,7 @@ public class VentanaIniciarSesion extends Frame {
     public VentanaIniciarSesion() {
         
         this.setTitle("Iniciar Secion");
-        this.setSize(600, 400);
+        this.setSize(500, 400);
         this.setLocationRelativeTo(this);
         this.setVisible(true);
         

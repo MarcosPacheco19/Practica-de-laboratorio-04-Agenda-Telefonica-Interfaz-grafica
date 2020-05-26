@@ -26,7 +26,7 @@ public class VentanaRegistro extends Frame{
     private Panel panelBotones;
 
     //Botones
-    private Button bRegistrar;
+    private Button bCrearCuenta;
     private Button bVolver;
 
     //Textos
@@ -47,7 +47,7 @@ public class VentanaRegistro extends Frame{
         panelRegistro = new Panel(new GridLayout(5, 2, 10, 25));
         panelBotones = new Panel();
 
-        bRegistrar = new Button("Registrar");
+        bCrearCuenta = new Button("Crear Cuenta");
         bVolver = new Button("Volver");
 
         cedula = new Label("Cedula:", Label.CENTER);
@@ -67,7 +67,7 @@ public class VentanaRegistro extends Frame{
         panelRegistro.add(new TextField());
         panelRegistro.add(contraseña);
         panelRegistro.add(new TextField());
-        panelBotones.add(bRegistrar);
+        panelBotones.add(bCrearCuenta);
         panelBotones.add(bVolver);
         
         panelPrincipal.add(panelRegistro, BorderLayout.CENTER);
@@ -78,3 +78,4 @@ public class VentanaRegistro extends Frame{
         this.add(panelPrincipal);
     }
 }
+    
