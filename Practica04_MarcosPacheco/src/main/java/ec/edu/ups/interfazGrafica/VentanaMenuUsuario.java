@@ -42,7 +42,7 @@ public class VentanaMenuUsuario extends Frame{
         this.setLocationRelativeTo(this);
         this.setVisible(true);
         
-        panelPrincipal = new Panel(new GridLayout(0, 3));
+        panelPrincipal = new Panel(new GridLayout(0, 7));
         panelVacio = new Panel();
         panelBotones = new Panel(new GridLayout(5, 1, 0,15));
 
